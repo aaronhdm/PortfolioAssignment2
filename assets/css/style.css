@@ -1,0 +1,187 @@
+/* Whole Page Body */
+body {
+  font-family: sans-serif,'Times New Roman', Times, serif;
+  color: rgb(48, 48, 48);
+  background-color: white;
+}
+
+/* Headers */
+header {
+  background-color: rgb(48, 48, 48);
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding: 1px;
+}
+
+header h1 {
+  color: rgb(48, 48, 48);
+  font-size: 40px;
+  font-weight: bold;
+  text-indent: 40px;
+  background-color: aquamarine;
+  padding: 20px;
+}
+
+header nav ul {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+header nav {
+  margin: 20px;
+}
+
+header nav ul li a {
+  color: aquamarine;
+  padding: 1px;
+  font-size: 20px;
+  margin-right: 40px;
+  text-decoration: underline;
+}
+
+header nav ul li a:hover {
+  color: blue;
+}
+
+/* Header Picture */
+.Headerpic {
+  background-image: url("https://www.publicdomainpictures.net/pictures/150000/nahled/blue-wood-fence-background.jpg");
+  height: 200px;
+  background-size: cover;
+  display: flex;
+}
+
+.title {
+  border-right: 5px solid rgb(48, 48, 48);
+  min-height: 100%;
+  text-align: right;
+  padding-right: 40px;
+  min-width: 20%;
+  max-width: 20%;
+}
+
+.title h2 {
+  font-size: 40px;
+}
+
+/* About Me Section */
+.AboutMe {
+  display: flex;
+  justify-content: space-between;
+  align-items: stretch;
+  padding-top: 30px;
+}
+
+.AboutMe p {
+  font-size: 20px;
+  padding: 0 30px;
+  line-height: 2;
+  width: 100%;
+}
+
+/* Work Section */
+.Work {
+  padding: 30px 0;
+  display: flex;
+}
+
+.Grid {
+  width: 80%;
+  height: 500px;
+  display: flex;
+  justify-content: center;
+}
+
+.GridProjects {
+  width: 70%;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(4, 1fr);
+  gap: 10px;
+}
+
+.project {
+  border: solid;
+  color: black;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  text-decoration: none;
+  background-size: cover;
+  background-position: center;
+  opacity: 0.75;
+}
+
+.project:hover {
+  opacity: 1.0;
+}
+
+.Surf {
+  grid-column: 1/3;
+  grid-row: span 2;
+  background-image: url("https://i0.heartyhosting.com/www.surfer.com/wp-content/uploads/2019/12/laura.jpg?resize=1200%2C630");
+}
+
+.LED {
+  background-image: url("https://m.media-amazon.com/images/I/61Q3M9jMmVL._AC_SX679_.jpg");
+  background-position: 50% 15%;
+}
+
+.Calculator {
+  background-image: url("https://hrbent.scene7.com/is/image/hrblock/Image-calculator-estimated-refund-hero?wid=961");
+  background-position: 60% 50%;
+}
+
+.Pastel {
+  background-image: url("https://images.creativemarket.com/0.1.0/ps/1893429/910/607/m1/fpnw/wm0/four-piece-puzzle-01-.jpg?1479138379&s=d5e6a6f78b27008ccddbd699ca054a66&fmt=webp");
+}
+
+.Run {
+  background-image: url("https://www.pupbox.com/wp-content/themes/pupbox-jb/assets/blog.v2/posts-by-age/puppy-running2.jpg");
+}
+
+.project-label {
+  background-color: aquamarine;
+  color: rgb(48, 48, 48);
+  padding: 10px;
+}
+
+/* Contact Me Section */
+footer {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding-top: 30px;
+  margin-bottom: 30px;
+}
+
+.Contact {
+  width: 80%;
+  display: flex;
+  justify-content: center;
+  align-items: center; 
+}
+
+#Info {
+  width: 100%;
+}
+
+footer ul {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-content: center;
+  font-size: 28px;
+  font-weight: bolder;
+  margin-bottom: 5px;
+}
+
+footer a {
+  color: rgb(48, 48, 48);
+}
+
+footer a:hover {
+  color: blue;
+}
